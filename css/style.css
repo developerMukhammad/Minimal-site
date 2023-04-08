@@ -1,0 +1,208 @@
+/* ======GLABAL====== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
+    /* font-family: 'Montserrat'; */
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* ======HEADER====== */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.nav-img{
+    width: 155px;
+    height: 70px;
+}
+.nav-img img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+.list li a{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #404040;
+}
+.hero{
+    background-image: url('../images/bg-hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-hero{
+    padding-top: 98px ;
+    padding-bottom: 101px;
+    padding-left right: 250px ;
+}
+.bg-hero h1{
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 7px auto 28px;
+}
+.bg-hero hr{
+    width: 80px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.bg-hero p{
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    margin-bottom: 3px;
+}
+.restangle{
+    background: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 61px;
+}
+.mini-restangle p{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    margin-bottom: 40px;
+}
+.btn{
+    padding-top: 13px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #47474F;
+}
+.m-frame{
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+.m-frame h3{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 28px;
+}
+.m-frame hr{
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 9.97px;
+}
+.card h4{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+.card img{
+    margin-bottom: 38px;
+}
+.m-recent{
+    margin-top: 69px;
+    margin-bottom: 69px;
+}
+.m-recent h3{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 28px;
+}
+.m-recent hr{
+    background: rgba(0, 0, 0, 0.09);
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+.m-cards1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m-card{
+    background-color: #FFFFFF;
+}
+.m-card img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 19px;
+}
+.m-card h4{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 4px;
+}
+.m-card p{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.Barchasi{
+    background: #F5F5F5;
+    padding-top: 69px;
+    padding-bottom: 69px;
+}
